@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* typography */
+:root {
+  --title-font: "Playfair Display", serif;
+  --ui-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root {
+  height: 100%;
+  font-family: var(--ui-font);
+}
+
+/* gradient shimmer for headings */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
+}
+
+/* slow pan for background images */
+@keyframes slowPan {
+  0% {
+    background-position: center;
+  }
+  50% {
+    background-position: top;
+  }
+  100% {
+    background-position: center;
+  }
+}
+.animate-slow-pan {
+  animation: slowPan 18s ease-in-out infinite;
+}
+
+/* subtle glowing shadow for cards */
+.glow {
+  box-shadow: 0 8px 30px rgba(236, 72, 153, 0.08), 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* optional utility for serif titles */
+.title-serif {
+  font-family: var(--title-font);
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
 }
