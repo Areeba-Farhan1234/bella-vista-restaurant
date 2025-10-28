@@ -1,10 +1,10 @@
 {
   "name": "bella-vista",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Modern responsive React website built with Tailwind CSS and Framer Motion.",
   "author": "Areeba Farhan",
   "license": "Commercial",
-  "homepage": "https://github.com/Areeba-Farhan1234/Bella-vista",
+  "homepage": "https://github.com/Areeba-Farhan1234/bella-vista",
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
