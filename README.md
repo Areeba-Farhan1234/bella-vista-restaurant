@@ -18,7 +18,7 @@ Perfect for elegant web presentations like portfolios, bridal, or event-based we
 ## 🚀 Live Demo
 
 Deployed on **Vercel**  
-👉 [https://bella-vista.vercel.app](#) _(Replace with your deployed link)_
+👉 [https://github.com/Areeba-Farhan1234/Bella-vista]
 
 ---
 
