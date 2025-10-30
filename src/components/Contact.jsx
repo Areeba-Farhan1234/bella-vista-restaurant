@@ -3,7 +3,6 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { motion } from "framer-motion";
 import Reveal from "./Reveal";
-import Footer from "./Footer";
 
 const FloatingSphere = ({
   size = 1,
@@ -156,8 +155,6 @@ const Contact = () => {
           </Reveal>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 };

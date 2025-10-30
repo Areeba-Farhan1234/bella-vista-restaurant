@@ -1,0 +1,21 @@
+[33m8ec1afa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: pull origin main --rebase (finish): returning to refs/heads/main
+[33m8ec1afa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{1}: pull origin main --rebase (start): checkout 8ec1afab0a27967f2f96f742434c6b6050569414
+[33m1ab8d57[m HEAD@{2}: Branch: renamed refs/heads/main to refs/heads/main
+[33m1ab8d57[m HEAD@{4}: commit: Initial commit
+[33mc792098[m HEAD@{5}: commit: commit
+[33me2f9a39[m HEAD@{6}: commit: change again
+[33mf37ef9e[m HEAD@{7}: commit: changes
+[33mcdcb91f[m HEAD@{8}: commit: changes
+[33ma01739a[m HEAD@{9}: commit: Fix vercel routing and homepage
+[33me0ac2f5[m HEAD@{10}: commit: Added vercel.json for SPA routing
+[33m4ea6460[m HEAD@{11}: commit: changes
+[33m894c045[m HEAD@{12}: commit: change commit
+[33m1f894f1[m HEAD@{13}: commit: last
+[33m19b9435[m HEAD@{14}: commit: change
+[33mf319e3a[m HEAD@{15}: Branch: renamed refs/heads/main to refs/heads/main
+[33mf319e3a[m HEAD@{17}: commit: Initial commit of React project
+[33m5c47095[m HEAD@{18}: Branch: renamed refs/heads/main to refs/heads/main
+[33m5c47095[m HEAD@{20}: Branch: renamed refs/heads/main to refs/heads/main
+[33m5c47095[m HEAD@{22}: Branch: renamed refs/heads/master to refs/heads/main
+[33m5c47095[m HEAD@{24}: commit: Initial commit
+[33m8dcc163[m HEAD@{25}: commit (initial): Initialize project using Create React App
