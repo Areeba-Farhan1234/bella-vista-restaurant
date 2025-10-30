@@ -128,7 +128,7 @@ const Menu = () => {
           </p>
         </Reveal>
 
-        {/* --- Dishes Grid --- */}
+        {/* --- Dishes Grid card--- */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-10 sm:mt-12">
           {dishes.map((dish, i) => (
             <Reveal key={i} delay={i * 0.07}>
